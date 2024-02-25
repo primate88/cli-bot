@@ -16,10 +16,12 @@ VERSION = '0.0.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
+    'GPUtil',
     'langchain==0.1.8',
     'langchain-community==0.0.24',
     'langchain-core==0.1.26',
     'langchain-experimental==0.0.52',
+    'psutil',
 ]
 
 here = os.path.abspath(os.path.dirname(__file__))
