@@ -3,6 +3,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from prompts.system_prompt import generate_system_prompt
 
+system_prompt = generate_system_prompt()
+
 llm = Ollama(model="chat")
 
 prompt = ChatPromptTemplate.from_messages(
