@@ -1,4 +1,4 @@
-# cli-bot: A Voice-Powered Command Line Familiar
+# cli-bot: A Command Line Familiar
 
 ## Overview
 
